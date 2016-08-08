@@ -1,0 +1,47 @@
+<div>
+<h1>About</h1>
+This page introduces different features on Angular2.
+</div>
+
+<div class="item-card mdl-card mdl-shadow--2dp">
+<h1>Contact</h1>
+<div class="mdl-grid items">
+          <div class="mdl-cell mdl-cell--6-col">
+            <ul>
+            <label>Name</label>
+              <li>{{name}}</li>
+            <label>E-Mail</label>
+              <!--
+              //*Interpolation
+              // is used to render a property -->
+              <li>{{email}}</li>
+            <label>Message</label>
+              <li>{{message}}</li>
+            </ul>
+          </div>
+
+        <div class="mdl-cell mdl-cell--6-col">
+          <form novalidate>
+            <div class="mdl-textfield mdl-js-textfield">
+              <label>Name</label>
+                <!--
+                //*Two-way binding
+                // All what we write in the inputs with [(ngModel)]="variable" 
+                // will be stored in the variable 
+                // and can be used in the Component or interpolated in the same template. -->
+                <input placeholder="Name" class="mdl-textfield__input" type="text" [(ngModel)]="name">
+              <label>E-Mail</label>
+                <input placeholder="E-Mail" class="mdl-textfield__input" type="text" [(ngModel)]="email">
+              <label>Message</label>
+                <input placeholder="Message" class="mdl-textfield__input" type="text" [(ngModel)]="message">
+            </div>
+        </form>
+        </div>
+        <div class="mdl-card__actions">
+            <button type="submit"
+            class="mdl-button mdl-js-button mdl-js-ripple-effect">Cancel</button>
+            <button type="submit"
+            class="mdl-button mdl-js-button mdl-button--colored mdl-js-ripple-effect">Send</button>
+        </div>
+</div>
+</div>

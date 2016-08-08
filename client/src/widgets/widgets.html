@@ -1,0 +1,14 @@
+  <div class="mdl-grid items">
+    <div class="mdl-cell mdl-cell--6-col">
+      <widgets-list 
+      (selected)="selectWidget($event)"
+      (deleted)="deleteWidget($event)"
+      [widgets]="widgets"></widgets-list>
+    </div>
+    <div class="mdl-cell mdl-cell--6-col">
+      <widget-details
+      (savedW)="saveWidget($event)"
+      (cancelledW)="resetWidget($event)"
+      [selectedWidget]="selectedWidget"></widget-details>
+    </div>
+  </div>

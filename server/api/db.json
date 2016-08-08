@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "item 090999",
+      "description": "it's not an item :p"
+    },
+    {
+      "name": "item -1000",
+      "description": "it's just a clone XD",
+      "id": 2
+    },
+    {
+      "name": "item 1",
+      "description": "last item take it before we close :p",
+      "id": 3
+    }
+  ],
+  "widgets": [
+    {
+      "name": "widget 1",
+      "price": 100,
+      "id": "2985a957-7c6c-4ff7-82df-3e29f308b6f3"
+    },
+    {
+      "name": "widget 287878",
+      "price": 2,
+      "id": "0f486e97-cff7-4649-8efb-88590d4e33a9"
+    },
+    {
+      "name": "widget 3",
+      "price": 378798,
+      "id": "18e4ef46-497e-4be2-a013-50c4911a4edb"
+    }
+  ]
+}
